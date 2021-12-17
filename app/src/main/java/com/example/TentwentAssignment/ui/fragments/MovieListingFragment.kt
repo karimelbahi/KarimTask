@@ -11,7 +11,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.TentwentAssignment.data.remote.response.movie.MovieResponse
 import com.example.TentwentAssignment.data.remote.response.movie.Result
 import com.example.TentwentAssignment.databinding.FragmentMovieListingBinding
-import com.example.TentwentAssignment.ui.movie.MovieViewModel
+import com.example.TentwentAssignment.domain.viewmodels.MovieViewModel
 import com.example.TentwentAssignment.ui.movie.adapter.HomeMovieAdapter
 import com.example.TentwentAssignment.util.Constants
 import com.example.TentwentAssignment.util.Resource

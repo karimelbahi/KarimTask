@@ -3,7 +3,7 @@ package com.example.TentwentAssignment.di
 import android.content.Context
 import com.example.TentwentAssignment.data.local.room.AppDao
 import com.example.TentwentAssignment.data.remote.endpoint.ApiService
-import com.example.TentwentAssignment.ui.movie.MovieRepository
+import com.example.TentwentAssignment.domain.repos.MovieRepository
 import com.google.gson.Gson
 import dagger.Module
 import dagger.Provides

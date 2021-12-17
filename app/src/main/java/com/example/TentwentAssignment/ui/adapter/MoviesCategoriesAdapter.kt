@@ -1,18 +1,11 @@
 package com.example.TentwentAssignment.ui.movie.adapter
 
 import android.content.Context
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.example.TentwentAssignment.R
-import com.example.TentwentAssignment.data.remote.response.movie.Result
 import com.example.TentwentAssignment.data.remote.response.movie.detail.Genre
-import com.example.TentwentAssignment.databinding.RowMovieLayoutBinding
 import com.example.TentwentAssignment.databinding.RowMoviesCategoriesLayoutBinding
-import com.example.TentwentAssignment.util.Constants
 
 class MoviesCategoriesAdapter(
     private val context: Context,

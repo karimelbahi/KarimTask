@@ -1,6 +1,6 @@
 package com.example.TentwentAssignment.ui.movie.fragments
 
-import android.content.pm.ActivityInfo
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -17,7 +17,8 @@ import com.denzcoskun.imageslider.models.SlideModel
 import com.example.TentwentAssignment.data.remote.response.movie.detail.MovieDetailResponse
 import com.example.TentwentAssignment.data.remote.response.movie.images.ImagesResponse
 import com.example.TentwentAssignment.databinding.FragmentMovieDetailBinding
-import com.example.TentwentAssignment.ui.movie.MovieViewModel
+import com.example.TentwentAssignment.domain.viewmodels.MovieViewModel
+import com.example.TentwentAssignment.ui.activities.MovieWatchActivity
 import com.example.TentwentAssignment.util.Constants
 import com.example.TentwentAssignment.util.Resource
 import com.google.gson.Gson
@@ -56,7 +57,7 @@ class MovieDetailFragment : Fragment() {
 //                            binding.movieDetailDate.text = m.release_date
                             binding.movieDetailOverview.text = m.overview
                             binding.watchTrailer.setOnClickListener {
-                                goWatchTrailerFragment(m)
+                                goWatchTrailer(m)
                             }
                         }
                     }
@@ -75,7 +76,6 @@ class MovieDetailFragment : Fragment() {
                 Resource.Status.LOADING -> {
                     Log.d(TAG, "LOADING ${it.message}")
                     binding.progressBar.visibility = View.VISIBLE
-//                    binding.movieDetailContentLl.visibility = View.INVISIBLE
                 }
                 Resource.Status.SUCCESS -> {
                     Log.i(TAG, "SUCCESS ${it.data}")
@@ -134,12 +134,11 @@ class MovieDetailFragment : Fragment() {
 
 
 
-    private fun goWatchTrailerFragment(item: MovieDetailResponse){
+    private fun goWatchTrailer(item: MovieDetailResponse){
 
-        findNavController().navigate(
-            MovieDetailFragmentDirections.actionMovieDetailFragmentToMovieWatchFragment(
-                item.id
-            )
-        )
+        val intent = Intent(requireActivity(), MovieWatchActivity::class.java).apply {
+            putExtra(Constants.MOVIE_ID,item.id)
+        }
+        requireActivity().startActivity(intent)
     }
 }

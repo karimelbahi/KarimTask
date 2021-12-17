@@ -1,4 +1,4 @@
-package com.example.TentwentAssignment.ui.movie
+package com.example.TentwentAssignment.domain.repos
 
 import android.content.Context
 import android.util.Log

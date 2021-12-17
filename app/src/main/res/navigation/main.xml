@@ -29,23 +29,10 @@
         <argument
             android:name="movieId"
             app:argType="integer" />
-        <action
-            android:id="@+id/action_MovieDetailFragment_to_MovieWatchFragment"
-            app:destination="@id/MovieWatchFragment" />
+
 
     </fragment>
 
-
-    <fragment
-        android:id="@+id/MovieWatchFragment"
-        android:name="com.example.TentwentAssignment.ui.movie.fragments.MovieWatchFragment"
-        android:label="activity_watch_movie"
-        tools:layout="@layout/fragment_watch_movie">
-        <argument
-            android:name="movieId"
-            app:argType="integer" />
-
-    </fragment>
     <fragment
         android:id="@+id/movieCategoriesFragment"
         tools:layout="@layout/fragment_movie_categories"

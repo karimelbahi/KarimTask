@@ -1,4 +1,4 @@
-package com.example.TentwentAssignment.ui.movie
+package com.example.TentwentAssignment.domain.viewmodels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.TentwentAssignment.data.local.entity.*
 import com.example.TentwentAssignment.data.remote.response.movie.MovieResponse
+import com.example.TentwentAssignment.domain.repos.MovieRepository
 import com.example.TentwentAssignment.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers

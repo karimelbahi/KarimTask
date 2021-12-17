@@ -11,7 +11,7 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.TentwentAssignment.databinding.FragmentSearchByMovieBinding
-import com.example.TentwentAssignment.ui.movie.MovieViewModel
+import com.example.TentwentAssignment.domain.viewmodels.MovieViewModel
 import com.example.TentwentAssignment.ui.movie.adapter.SearchMovieAdapter
 import com.example.TentwentAssignment.util.Constants
 import com.example.TentwentAssignment.util.Resource
