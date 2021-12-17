@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/K/AndroidTask/app/src/main/res/drawable-v24/spinner_row_rectangle_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/K/AndroidTask/app/src/main/res/drawable/spinner_row_rectangle_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/K/AndroidTask/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/K/Tentwenty/AndroidTask/app/src/main/res/layout/activity_main.xml" value="0.203125" />
+        <entry key="..\:/K/Tentwenty/AndroidTask/app/src/main/res/layout/activity_watch_movie.xml" value="0.3625" />
+        <entry key="..\:/K/Tentwenty/AndroidTask/app/src/main/res/layout/fragment_movie_book.xml" value="0.203125" />
+        <entry key="..\:/K/Tentwenty/AndroidTask/app/src/main/res/layout/fragment_movie_detail.xml" value="0.3625" />
+        <entry key="..\:/K/Tentwenty/AndroidTask/app/src/main/res/layout/fragment_movie_listing.xml" value="0.3625" />
+        <entry key="..\:/K/Tentwenty/AndroidTask/app/src/main/res/layout/row_movie_layout.xml" value="0.3625" />
+        <entry key="..\:/K/Tentwenty/AndroidTask/app/src/main/res/layout/row_spinner_layout.xml" value="0.3625" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/drawable-v24/ic_baseline_date_range_24.xml" value="0.36574074074074076" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/drawable/bottom_image_shadow_gradient.xml" value="0.3765625" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/drawable/ic_baseline_arrow_white_24.xml" value="0.36574074074074076" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/drawable/ic_button_get_tickets.xml" value="0.36574074074074076" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/drawable/ic_status_blue_background.xml" value="0.36574074074074076" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/drawable/ic_status_green_background.xml" value="0.36574074074074076" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/drawable/ic_status_red_background.xml" value="0.36574074074074076" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/drawable/ic_status_yellow_background.xml" value="0.36574074074074076" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/drawable/light_wight_round_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/drawable/searchview_background.xml" value="0.3765625" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/drawable/watch_trailer_border.xml" value="0.36574074074074076" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/layout-land/fragment_movie_detail.xml" value="0.264" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/layout/fragment_movie_book.xml" value="0.3625" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/layout/fragment_movie_categories.xml" value="0.264" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/layout/fragment_movie_detail.xml" value="0.264" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/layout/fragment_movie_listing.xml" value="0.3625" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/layout/fragment_search_by_movie.xml" value="0.2" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/layout/fragment_watch_movie.xml" value="0.3625" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/layout/row_Filtered_movie_layout.xml" value="0.36041666666666666" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/layout/row_filtered_movie_layout.xml" value="0.4" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/layout/row_movie_layout.xml" value="0.3625" />
+        <entry key="..\:/K/Tentwenty/karimbahi_tentwenty_assignment/app/src/main/res/layout/row_movies_categories_layout.xml" value="0.36041666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

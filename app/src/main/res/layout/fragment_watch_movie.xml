@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/watch_done"
+        app:autoPlay="true"
+        app:showFullScreenButton="false"
+        app:videoId="S0Q4gqBUs7c" />
+
+    <ImageView
+        android:id="@+id/watch_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_baseline_arrow_white_24"/>
+
+    <TextView
+        android:id="@+id/watch_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/purple_500"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="@string/watch_move_done"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+</RelativeLayout>
